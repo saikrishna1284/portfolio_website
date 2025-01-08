@@ -1,0 +1,158 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+  }
+  
+  .section {
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Navigation Bar */
+  .navbar {
+    position: sticky;
+    top: 0;
+    background-color: #111;
+    padding: 10px 0;
+    z-index: 1000;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .navbar ul li {
+    margin: 0 15px;
+  }
+  
+  .navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  .navbar ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  /* About Me */
+  .about-content {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .profile-pic {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+  }
+  
+  .about-text {
+    text-align: left;
+  }
+  
+  .action-buttons .btn {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .action-buttons .btn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Skills */
+  .skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+  }
+  
+  .skill-card {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 16px;
+  }
+  
+  /* Projects */
+  .projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .project-card {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: left;
+  }
+  
+  .project-card .btn {
+    display: inline-block;
+    margin-top: 10px;
+  }
+  
+  /* Contact */
+  form input, form textarea, form button {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+  }
+  
+  form button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  form button:hover {
+    background-color: #0056b3;
+  }
+  .profile-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .profile-picture {
+    margin-right: 20px; /* Adjust space between the image and text */
+  }
+  
+  .profile-picture img {
+    width: 150px; /* Set the size of your profile picture */
+    height: 150px;
+    border-radius: 50%; /* Makes the picture circular */
+  }
+  
+  .about-me {
+    max-width: 600px; /* Adjust the width for the text container */
+  }
+  
+  .about-me h2 {
+    margin-bottom: 10px;
+  }
+  
+  .about-me p {
+    line-height: 1.6;
+  }
+  
